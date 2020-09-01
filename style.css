@@ -1,0 +1,295 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+#social {
+    position: relative;
+    background-color: lightseagreen;
+    width: 100%;
+    height: 800px;
+    border: solid black 4px;
+    margin: 10px auto;
+}
+
+body {
+    font-family: 'Righteous', cursive;
+}
+
+.image {
+    position: absolute;
+    bottom: 0px;
+    background-color: aqua;
+    width: 120px;
+    height: 170px;
+    background-image: url('./images/pic.jpg');
+    background-size: 120px 170px;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: solid black 4px;
+    padding: 5px;
+}
+
+.name {
+    background-color: lightcoral;
+    width: 850px;
+    height: 300px;
+    border: lightgrey 2px solid;
+    position: absolute;
+    top: 0px;
+    left: 500px;
+}
+
+h2 {
+    font-size: 60px;
+    color: navy;
+    position: absolute;
+    left: 265px;
+    top: 0px;
+    margin: 5px 0px;
+    
+}
+
+ul1 {
+    position: absolute;
+    bottom: 0px;
+    left: 150px;
+    list-style-type: none;
+    display: inline;
+    padding: 10px;      
+}
+
+ul1 li1 {
+    display: inline-block;
+    background: lightslategray;
+    padding: 10px 10px;
+    color: black;
+    border: white 6px;
+    
+}
+
+ul2 {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    list-style-type: none;
+    display: inline;
+    padding: 10px;    
+}
+
+ul2 li2 {
+    display: inline-block;
+    background: lightslategray;
+    padding: 10px 10px;
+    color: black;
+    border: white 6px;
+
+}
+
+.column {
+    column-rule-width: 328px;
+}
+
+.games {
+    background-color: slateblue;
+    width: 326px;
+    height: 205px;
+    position: absolute;
+    top: 310px;
+    left: 490px;
+    margin: 10px 10px;
+    border: solid grey 1px;
+}
+
+.pic1 {
+    background-image: url('./Images/Fallout76.jfif');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: magenta;
+    width: 50px;
+    height: 50px;
+    border: solid black 2px;
+    padding: 20px;
+    position: absolute;
+    left: 0px;
+    margin: 5px 5px;
+
+}
+
+.pic2 {
+    background-image: url('./Images/CODMW.jfif');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: magenta;
+    width: 50px;
+    height: 50px;
+    border: solid black 2px;
+    padding: 20px;
+    position: absolute;
+    right: 0px;
+    margin: 5px 5px;
+}
+
+.pic3 {
+    background-image: url('./Images/Fallguys.jfif');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: magenta;
+    width: 50px;
+    height: 50px;
+    border: solid black 2px;
+    padding: 20px;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    margin: 5px 5px;
+}
+
+.pic4 {
+    background-image: url('./Images/Fable2.jfif');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: magenta;
+    width: 50px;
+    height: 50px;
+    border: solid black 2px;
+    padding: 20px;
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    margin: 5px 5px;
+}
+
+.pic5 {
+    background-image: url('./Images/FO4.jfif');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: magenta;
+    width: 50px;
+    height: 50px;
+    border: solid black 2px;
+    padding: 20px;
+    position: absolute;
+    left: 113px;
+    top: 0px;
+    margin: 5px 5px;
+}
+
+.pic6 {
+    background-image: url('./Images/Fable3.jfif');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: magenta;
+    width: 50px;
+    height: 50px;
+    border: solid black 2px;
+    padding: 20px;
+    position: absolute;
+    left: 113px;
+    bottom: 0px;
+    margin: 5px 5px;
+}
+
+
+.schedule {
+    background-color: lightsteelblue;
+    background-image: url('./Images/Twitch.png');
+    background-size: contain;
+    width: 326px;
+    height: 205px;
+    position: absolute;
+    left: 490px;
+    bottom: 50px;
+    margin: 10px 10px;
+    border: solid grey 1px;       
+}
+
+ul3 {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    list-style-type: none;
+    padding: 4px;
+    box-sizing: border-box;
+    opacity: .9; 
+}
+
+
+
+ul3 li3 {
+    display: block;
+    background: rgb(188, 120, 194);
+    padding: 4px 15px;
+    margin: 1px 0px;
+    border: solid black 1px;
+    color: whitesmoke;
+    font-size: 13px;
+}
+
+h3 {
+    font-size: 22px;
+    color: white;
+    position: absolute;
+    right: 3px;
+    top: 5px;
+    margin: 5px 0px;
+}
+
+.announcements {
+    background-color: slateblue;
+    width: 510px;
+    height: 205px;
+    position: absolute;
+    right: 540px;
+    top: 310px;
+    margin: 10px 10px;
+    border: solid grey 1px;
+}
+
+h4 {
+    font-size: 40px;
+    color: white;
+    position: absolute;
+    left: 100px;
+    top: 0px;
+    padding: 5px;
+    margin: 5px 0px;
+}
+
+
+
+.timeline {
+    background-color: slateblue;
+    width: 510px;
+    height: 205px;
+    position: absolute;
+    right: 540px;
+    bottom: 50px;
+    margin: 10px 10px;
+
+}
+
+
+.gamepic {
+    background-color: royalblue;
+    background-image: url('./Images/plunder.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 327px;
+    height: 180px;
+    padding: 5px;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    margin: 5px 5px;
+    border: solid grey 1px;
+}
+
+p {
+    font-size: 27px;
+    color: navajowhite;
+    position: absolute;
+    left: 0px;
+    top: 70px;
+    margin: 2px auto;
+    padding: 1px;
+}
+
+   
